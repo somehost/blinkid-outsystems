@@ -10,7 +10,7 @@ ionic start --id=com.microblink.blinkid BlinkIdDemo ./www --v2
 cd BlinkIdDemo
 
 # add the BlinkID plugin
-ionic plugin add ../BlinkID
+ionic plugin add ../
 
 # add ios and android support to the project
 ionic platform add android
