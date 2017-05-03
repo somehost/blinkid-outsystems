@@ -5,12 +5,12 @@ const xcode = require('xcode'),
     path = require('path');
 
 module.exports = function(context) {
-    if(process.length >=5 && process.argv[1].indexOf('cordova') == -1) {
-        if(process.argv[4] != 'ios') {
+    if(context && context.opts && context.opts.cordova){
+        if(context.opts.cordova.platforms && context.opts.cordova.platforms.indexOf("ios")){
             return; // plugin only meant to work for ios platform.
         }
     }
-
+   
     function fromDir(startPath,filter, rec, multiple){
         if (!fs.existsSync(startPath)){
             console.log("no dir ", startPath);
