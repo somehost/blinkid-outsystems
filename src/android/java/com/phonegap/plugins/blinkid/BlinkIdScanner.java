@@ -118,9 +118,9 @@ public class BlinkIdScanner extends CordovaPlugin {
 
     private static final String LOG_TAG = "BlinkIdScanner";
 
-    private static boolean sReturnSuccessfulImage;
-    private static boolean sReturnDocumentImage;
-    private static boolean sReturnFaceImage;
+    private static boolean sReturnSuccessfulImage = true;
+    private static boolean sReturnDocumentImage = true;
+    private static boolean sReturnFaceImage = true;
 
     private static CallbackContext sCallbackContext;
 
