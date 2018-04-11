@@ -17,6 +17,18 @@ var kPPmyKadNricNumber = "nricNumber";
 var kPPmyKadAddress = "ownerAddress";
 
 
+var kPPmyKadAddressZipCode = "ownerAddressZipCode";
+
+
+var kPPmyKadAddressStreet = "ownerAddressStreet";
+
+
+var kPPmyKadAddressCity = "ownerAddressCity";
+
+
+var kPPmyKadAddressState = "ownerAddressState";
+
+
 var kPPmyKadBirthDate = "ownerBirthDate";
 
 
@@ -27,3 +39,15 @@ var kPPmyKadReligion = "ownerReligion";
 
 
 var kPPmyKadSex = "ownerSex";
+
+
+var kPPmyKadBackNricNumber = "MyKadExtendedNRIC.NRIC";
+
+
+var kPPmyKadBackExtendedNricNumber = "MyKadExtendedNRIC.ExtendedNRIC";
+
+
+var kPPmyKadBackBirthDate = "MyKadExtendedNRIC.DateOfBirth";
+
+
+var kPPmyKadBackSex = "MyKadExtendedNRIC.Sex";
